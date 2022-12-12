@@ -1,0 +1,42 @@
+<div class="cart">
+    <div class="cart-content">
+        <a class="orders">Orders</a>
+        <div class="date">
+            <a>Order at:</a>
+            <a> December 6,2022</a>
+        </div>
+        <div class="orderstatus">
+            <a class="status">Order status:</a>
+            <a class="shipping">shipping</a>
+          
+        </div>
+        <div class="item">
+            <a class="">Items:</a>
+            <a class="">2 item</a>
+        </div>
+        <div class="price">
+            <a class="">Price:</a>
+            <a class="">25$</a>
+        </div>
+    </div>
+</div>
+
+<div class="order">
+    <a class="orderitem">Order Item</a>
+</div>
+
+
+<div class="popularp-grid">
+    <div class="box" *ngFor="let item of selectedpokemon">
+        <img  [src]="item.sprites.front_default" alt="pokemon">
+        <a>{{item.name}}</a>
+        <div class="price">{{item.id}}$</div>
+        <button class="sale" routerLink="/orderpage"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+        
+    </div>
+</div>
+
+
+<div class="send-btn">
+    <a class="send">Send</a>
+</div>

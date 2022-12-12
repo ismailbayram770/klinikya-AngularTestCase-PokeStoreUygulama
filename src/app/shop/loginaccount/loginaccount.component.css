@@ -1,0 +1,110 @@
+
+.giris{
+    margin-top: 150px;
+  
+}
+
+#baslik{
+    
+    width: 375px;
+    height: 50px;
+    margin-left: 670px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#emailpassword{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 620px;
+    
+}
+#email{
+    margin-bottom: 20px;
+    width: 340px;
+    height: 48px;
+  
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F5F5F5;
+    border-radius: 8px;
+    border-color: white;
+
+}
+#email::placeholder{
+    font-family: poppins;
+    font-size: 13px;
+}
+#password{
+    width: 340px;
+    height: 48px;
+    width: 340px;
+    height: 48px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #F5F5F5;
+    border-radius: 8px;
+    border-color: white;
+    
+}
+
+#password::placeholder{
+    font-family: poppins;
+    font-size: 13px;
+}
+
+#kosullar{
+   
+    width: 194px;
+    height: 17px;
+    margin-top: 100px;
+    margin-left: 713px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 11px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#kos{
+    text-decoration: none;
+    padding-left: 2px;
+}
+
+#giris{
+ margin-left: 690px;
+ margin-top: 27px;
+}
+#girisbtn{
+    height: 47px;
+    width: 212px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #5856D6;
+    border-radius: 13.0556px;
+    color: white;
+}

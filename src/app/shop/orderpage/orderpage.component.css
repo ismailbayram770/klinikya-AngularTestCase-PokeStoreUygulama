@@ -1,0 +1,36 @@
+
+.orderpage{
+    margin-left: 320px;
+    margin-top: 100px;
+}
+.pendingorder{
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+
+}
+
+.orderhistory{
+    margin-left: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+.content{
+    margin-top: 100px;
+}
+.active{
+    color:#5856D6;
+}

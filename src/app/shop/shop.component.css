@@ -1,0 +1,110 @@
+
+.sayfa{
+    position: absolute;
+    left: 117px;
+    top: 43px;
+}
+
+.baslik-grid{
+    width: 335px;
+    height: 119px;
+}
+#hello{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    color: #000000;
+
+}
+#lets{
+   
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.categories{
+    float: left;
+    width: 750px;
+   
+    
+}
+.popularproducs{
+    margin-bottom: 30px;
+    float: right;
+}
+
+.basliklar{
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.categorypopular-grid{
+    display: grid;
+    grid-gap: 26px;
+    float: left;
+    padding-top: 100px;
+    grid-template-columns: repeat(auto-fit,minmax(23%,1fr));
+}
+
+.categorypopular-grid .box1{
+    width: 500px;
+    height: 200px;
+   
+}
+
+.categorypopular-grid .box2{
+    float: right;
+    width: 600px;
+    height: 200px;
+    margin-left: 300px;
+}
+
+.recently-grid{
+    
+    display: grid;
+    position: absolute;
+    float: left;
+    margin-top: 300px;
+    grid-gap: 26px;
+    padding-right: 20px;
+    padding-top: 100px;
+    grid-template-columns: repeat(auto-fit,minmax(8%,1fr));
+}
+
+.recently-grid .recentlybox{
+    width: 1000px;
+    height: 300px;
+}
+
+.gorsel{
+    margin-top: 20px;
+}
+.gorsel1{
+    width: 600px;
+    height: 310px;
+    float: left0;
+    background: rgba(255, 204, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(230, 230, 230, 0.7);
+    border-radius: 16px;
+}
+
+.gorsel2{
+    
+    width: 600px;
+    height: 310px;
+    float: left;
+    margin-left: 700px;
+    background: rgba(255, 144, 14, 0.7);
+    box-shadow: 0px 4px 4px rgba(230, 230, 230, 0.7);
+    border-radius: 16px;
+}

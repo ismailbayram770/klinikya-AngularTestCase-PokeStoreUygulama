@@ -1,0 +1,11 @@
+<div class="category-grid">
+    <div class="box">
+        <img src="assets/img/3.png" alt="">
+        <p>All Category</p>
+    </div>
+    <div class="box" *ngFor="let item of categories">
+        <img src="assets/img/{{item.imageUrl}}" alt="{{item.imageUrl}}">
+        <p>{{item.name}}</p>
+    </div>
+</div>
+

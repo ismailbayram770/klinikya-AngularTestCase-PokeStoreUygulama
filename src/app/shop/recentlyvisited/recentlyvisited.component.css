@@ -1,0 +1,59 @@
+.popularp-grid{
+    display: grid;
+    grid-gap: 100px;
+    padding-top: 20px;
+   
+    grid-template-columns: repeat(auto-fit,minmax(8%,1fr));
+}
+
+.popularp-grid .box{
+    width: 235px;
+    height: 90px;
+    box-shadow: 5px 5px 2px #F2F2F2;
+    border-radius: 8px;
+    
+   
+}
+
+.popularp-grid .box img{
+    display: block;
+    max-width: 100px;
+    padding: 0 auto;
+}
+
+.popularp-grid .box a{
+    position:absolute;
+    padding-left: 100px;
+    padding-top: 25px;
+    
+}
+
+.popularp-grid .box .price{
+    position:absolute;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+   
+}
+.popularp-grid .box .sale{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border: none;
+    float: right;
+    color: white;
+    background-color: purple;
+    cursor: pointer;
+    border: 2px solid purple;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+
+
+

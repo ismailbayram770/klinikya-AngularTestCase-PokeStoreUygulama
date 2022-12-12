@@ -1,0 +1,29 @@
+<div class="giris">
+    <div id="baslik">
+        <a>Create Account</a>
+    </div>
+   
+    <div id="emailpassword">
+        <input required type="email" placeholder="Email" id="email" name="email" [(ngModel)]="email" #emaill="ngModel">
+        <div *ngIf="emaill.invalid && emaill.touched">
+            <p class="emaill.errors.required" style="color: red; font-size: 10px;">Gerekli Alan</p>
+        </div>
+        <input required type="password" placeholder="Password" id="password" name="password" [(ngModel)]="password" #passwordd="ngModel">
+        <div *ngIf="passwordd.invalid && passwordd.touched">
+            <p class="passwordd.errors.required" style="color: red; font-size: 10px;">Gerekli Alan</p>
+        </div>
+        <div *ngIf="message">
+            <p class="message.errors.required" style="color: red; font-size: 15px; font-family: Poppins;">{{message}}</p>
+        </div>
+    </div>
+
+    <div id="kosullar">
+        <a>I agree to the </a> <a id="kos" href="#"> Terms and Conditions</a>
+    </div>
+
+    <div id="giris">
+        <button id="girisbtn" (click)="giris()">Sign In</button>
+    </div>
+
+   
+</div>

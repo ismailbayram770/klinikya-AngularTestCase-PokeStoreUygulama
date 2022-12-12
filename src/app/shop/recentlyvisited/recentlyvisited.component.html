@@ -1,0 +1,9 @@
+<div class="popularp-grid">
+    <div class="box" *ngFor="let item of pokemons">
+        <a>{{item.name}}</a>
+        <div class="price">{{item.id}}$</div>
+        <button class="sale" routerLink="/orderpage" selectedpokemon="item"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+        <img  [src]="item.sprites.front_default" alt="pokemon">
+
+    </div>
+</div>
